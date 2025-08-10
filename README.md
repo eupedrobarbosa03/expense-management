@@ -1,44 +1,51 @@
-# 📊 Sistema de Controle de Despesas Pessoais
+# 💰 Expense Management (Gerenciamento de Despesas).
 
-<div align="left">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" width="40" height="40"/>
-  <img src="https://cdn.simpleicons.org/javascript/F7DF1E" width="40" height="40"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" width="40" height="40"/>
-</div> 
+---
+
+## 📂 Repositório e Deploy
+
+- Repositório GitHub: [https://github.com/eupedrobarbosa03/expense-management](https://github.com/eupedrobarbosa03/expense-management)  
+- Deploy no GitHub Pages: [https://eupedrobarbosa03.github.io/expense-management/](https://eupedrobarbosa03.github.io/expense-management/)
 
 ---
 
 ## 🚀 Sobre o Projeto
 
-Este projeto é um sistema simples e intuitivo para controle de despesas pessoais, desenvolvido em **React**. Permite adicionar, visualizar, editar e remover despesas, além de controlar o saldo total disponível.
+Este sistema foi desenvolvido em **React** para facilitar o controle de despesas pessoais. Ele permite que o usuário registre despesas com nome e valor, visualize o saldo atualizado e edite o valor disponível conforme necessário.
+
+O foco principal é oferecer uma interface simples, prática e funcional para o gerenciamento financeiro do dia a dia.
 
 ---
 
 ## 🎯 Funcionalidades
 
-- Adicionar novas despesas com nome e valor.
-- Visualizar o saldo total formatado em Real (R$).
-- Editar saldo inicial manualmente.
-- Remover despesas individualmente, atualizando o saldo automaticamente.
-- Formatação automática dos valores em moeda brasileira.
-- Interação intuitiva com ícones para edição e exclusão.
+- Adicionar despesas com nome e valor formatado em Real (R$).
+- Visualizar o saldo total disponível, atualizado automaticamente.
+- Editar o saldo inicial através de uma interface intuitiva.
+- Remover despesas individualmente e atualizar o saldo automaticamente.
+- Tratamento e formatação de valores para moeda brasileira.
+- Atalhos e interações práticas, como fechar edição com a tecla Escape.
 
 ---
 
 ## 🛠 Tecnologias Utilizadas
 
-| Tecnologia    | Descrição                         |
-|---------------|----------------------------------|
-| ![React](https://img.shields.io/badge/React-61DAFB?logo=react&logoColor=white)       | Biblioteca JavaScript para UI    |
-| ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black) | Linguagem de programação         |
-| ![CSS3](https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white)         | Estilização das páginas          |
-| ![Font Awesome](https://img.shields.io/badge/Font_Awesome-528DD7?logo=fontawesome&logoColor=white) | Ícones para botões e interações  |
+- React
+- JavaScript
+- CSS Modules
+- Font Awesome
 
 ---
 
-## 💻 Como Rodar o Projeto
 
-1. Clone o repositório:
+## 🤝 Contribuição
 
-```bash
-git clone https://github.com/seu-usuario/expense-management-react.git
+Contribuições são bem-vindas! Caso queira colaborar com melhorias ou correções, fique à vontade para abrir issues ou enviar pull requests.
+
+---
+
+
+Obrigado por conferir o projeto!  
+Sinta-se livre para entrar em contato caso queira sugestões, dúvidas ou colaborações.
+
+
