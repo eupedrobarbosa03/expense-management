@@ -1,0 +1,175 @@
+@font-face {
+    font-family: 'Kanit';
+    src: url('../assets/fonts/Kanit/Kanit-Light.ttf');
+}   
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    outline: none;
+    font-family: 'Kanit';
+    user-select: none;
+}
+
+body {
+    min-height: 100vh;
+    background-color: rgb(0, 0, 0, .80);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main_container_management {
+    background-color: rgba(0, 0, 0, .85);
+    height: 400px;
+    width: 500px;
+    border-radius: 30px;
+}
+
+.container_cash_and_expense {
+    padding: 2.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+
+.container_cash {
+    border-bottom: 1px solid #4bfa62ff;
+}
+
+.container_expense {
+    border-bottom: 1px solid #fc1c1cff;
+}
+
+.editCash {
+    color: #33333380;
+    margin-left: .5rem;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.editCash:hover {
+    color: #333333;
+}
+
+.form_container_expense {
+    padding: 0 2.5rem;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+input[type=text] {
+    height: 40px;
+    background-color: transparent;
+    border: 1px solid #33333340;
+    font-size: .85rem;
+    padding: .5rem;
+    width: 150px;
+    transition: .4s;
+}
+
+input[type=submit] {
+    height: 40px;
+    border: none;
+    background-color: rgb(7, 7, 230);
+    font-size: .75rem;
+    width: 70px;
+    cursor: pointer;
+    transition: .4s;
+}
+
+input[type=text]:hover {
+    border: 1px solid #f4f4f4;
+}
+
+input[type=submit]:hover {
+    background-color: rgba(7, 7, 230, .80);
+}
+
+.container_expenses {
+    margin-top: 35px;
+    padding: 0 2.5rem;
+    height: 190px;
+    overflow: auto;
+}
+
+.box_expense {
+    display: flex;
+    align-items: center;
+    border: 1px solid #33333340;
+    height: 50px;
+    margin: .5rem 0;
+    justify-content: space-between;
+    padding: 0 .7rem;
+}
+
+.box_container_info_and_remove {
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.expense_remove {
+    color: #33333380;
+    transition: .4s;
+    cursor: pointer;
+}
+
+.expense_remove:hover {
+    color: #333333;
+}
+
+.container_edit_cash {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: black;
+    pointer-events: none;
+    opacity: 0;
+    transition: .5s;
+}
+
+.container_edit_cash.container_editCash_show {
+    opacity: 1;
+    pointer-events: all;
+}
+
+@media screen and (max-width: 600px){
+    .main_container_management {
+        width: auto;
+        height: 100vh;
+    }
+
+    .container_cash_and_expense {
+        padding: 2.5rem 1rem;
+    }
+
+    .container_expenses {
+        padding: 0 .3rem;
+        height: 400px;
+        margin-top: 40px;
+    }
+
+    .container_edit_cash {
+        width: 60%;
+    }
+
+    .form_container_expense {
+        padding: 0 1rem;
+        margin-top: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+        flex-wrap: wrap;
+    } 
+
+}
